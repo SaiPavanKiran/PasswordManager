@@ -1,7 +1,12 @@
 # Password Manager Android Application
 
 ## Project Overview
-The Password Manager Android Application allows users to securely store their usernames and passwords locally on their devices. The stored data is protected using the AES encryption algorithm, ensuring that user credentials remain safe and private.
+The Password Manager Android Application allows users to securely store their usernames and passwords locally on their devices. The stored data is protected using the AES encryption algorithm, ensuring that user credentials remain safe and private. The application features a user-friendly interface for managing credentials.
+
+### Key Features
+- **Secure Storage:** All usernames and passwords are stored locally using AES encryption.
+- **Add Credentials:** Users can add new account details (Account Name, Username, Password) using a bottom sheet form.
+- **View and Manage Credentials:** Users can view, edit, or delete their saved credentials from a list.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
@@ -28,6 +33,9 @@ Follow these steps to set up the project on your local machine:
     - Ensure you have the appropriate SDK version installed.
     - Sync the project to download all necessary dependencies by clicking on `File` -> `Sync Project with Gradle Files`.
 
+4. **Set Up Encryption Keys:**
+    - If the project requires specific configuration for encryption keys, ensure they are properly set up in your local environment. Refer to any additional configuration documentation provided in the project repository.
+
 ## Build Instructions
 To build and run the project, follow these steps:
 
@@ -47,8 +55,12 @@ Once the project is set up and running, you can use the application as follows:
 
 2. **Navigating the App:**
     - **Home Screen:** Displays a list of all user-saved credentials.
-    - **Add Credentials:** Tap the plus button at the bottom to open a bottom sheet where you can add a new username and password.
-    - **Edit or Delete Credentials:** Tap on the forward symbol on any list item to open a bottom sheet with the corresponding details. Here, you can either edit the details and update them or delete them using the delete button.
+    - **Add Credentials:** Tap the plus button at the bottom to open a bottom sheet where you can add a new account name, username, and password. The passwords are saved using AES encryption.
+    - **View and Manage Credentials:**
+        - Tap on the forward button on any list item to open a bottom sheet with the corresponding details.
+        - In this bottom sheet, you will find two buttons:
+            - **Edit (Blue Button):** Allows you to edit the account name, username, and password. After editing, click the update button to save changes.
+            - **Delete (Red Button):** Deletes the selected credential from the list.
 
 ## Additional Information
 
@@ -86,3 +98,8 @@ We welcome contributions to the project. To contribute, follow these steps:
     - Click the `New Pull Request` button.
     - Provide a detailed description of your changes and submit the pull request.
 
+### Contact Information
+For any questions or support, please contact:
+- **Name:** Sai Pavan Kiran
+- **Email:** saipavankiran@example.com
+- **GitHub:** [SaiPavanKiran](https://github.com/SaiPavanKiran)
