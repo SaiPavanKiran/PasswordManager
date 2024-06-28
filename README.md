@@ -67,43 +67,31 @@ Once the project is set up and running, you can use the application as follows:
               
 ## Videos
 
-<div style="display: flex; justify-content: center;">
-    <div style="text-align: center; margin-right: 20px;">
-        <p><strong>Prompting User Fingerprint:</strong></p>
-        <br/>
-        <br/>
-        <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/b42e9954-803c-4522-b83a-88e230a64482" alt="Prompting User Fingerprint" width="200" />
-        <br/>
-        <br/>
-    </div>
-    <div style="text-align: center;">
-        <p><strong>Adding New User Detail:</strong></p>
-        <br/>
-        <br/>
-        <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/8f3fe5ad-1ced-41f5-81e0-355b69be9004" alt="Adding New User Detail" width="200" />
-        <br/>
-        <br/>
-    </div>
-</div>
+<p align="center">
+  <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/b42e9954-803c-4522-b83a-88e230a64482" alt="Prompting User Fingerprint" width="200" />
+  <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/8f3fe5ad-1ced-41f5-81e0-355b69be9004" alt="Adding New User Detail" width="200" />
+</p>
 
-<div style="display: flex; justify-content: center;">
-    <div style="text-align: center; margin-right: 20px;">
-        <p><strong>Prompting User Fingerprint:</strong></p>
-        <br/>
-        <br/>
-        <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/b42e9954-803c-4522-b83a-88e230a64482" alt="Prompting User Fingerprint" width="200" />
-        <br/>
-        <br/>
-    </div>
-    <div style="text-align: center;">
-        <p><strong>Adding New User Detail:</strong></p>
-        <br/>
-        <br/>
-        <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/8f3fe5ad-1ced-41f5-81e0-355b69be9004" alt="Adding New User Detail" width="200" />
-        <br/>
-        <br/>
-    </div>
-</div>
+<p align="center">
+  <strong>Prompting User Fingerprint</strong>
+</p>
+
+<p align="center">
+  <strong>Adding New User Detail</strong>
+</p>
+
+<p align="center">
+  <img src="path_to_your_image_3" alt="Viewing List Item Details" width="200" />
+  <img src="path_to_your_image_4" alt="Deleting a List Item" width="200" />
+</p>
+
+<p align="center">
+  <strong>Viewing List Item Details</strong>
+</p>
+
+<p align="center">
+  <strong>Deleting a List Item</strong>
+</p>
 
 3. **Viewing List Item Details:**
    <br/>
