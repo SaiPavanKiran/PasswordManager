@@ -38,9 +38,6 @@ Follow these steps to set up the project on your local machine:
     - Ensure you have the appropriate SDK version installed.
     - Sync the project to download all necessary dependencies by clicking on `File` -> `Sync Project with Gradle Files`.
 
-4. **Set Up Encryption Keys:**
-    - If the project requires specific configuration for encryption keys, ensure they are properly set up in your local environment. Refer to any additional configuration documentation provided in the project repository.
-
 ## Build Instructions
 To build and run the project, follow these steps:
 
