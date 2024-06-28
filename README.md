@@ -69,24 +69,20 @@ Once the project is set up and running, you can use the application as follows:
 
 <p align="center">
   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/b42e9954-803c-4522-b83a-88e230a64482" alt="Prompting User Fingerprint" width="200" />
-    <br>
-    <br>
   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/8f3fe5ad-1ced-41f5-81e0-355b69be9004" alt="Adding New User Detail" width="200" />
 </p>
 
 <p align="center">
   <strong>Prompting User Fingerprint</strong>
-    <br>
 </p>
 
 <p align="center">
-    <br>
   <strong>Adding New User Detail</strong>
 </p>
 
 <p align="center">
-  <img src="path_to_your_image_3" alt="Viewing List Item Details" width="200" />
-  <img src="path_to_your_image_4" alt="Deleting a List Item" width="200" />
+  <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/5c8f93f4-2b08-416c-9adf-5f08c89186c8" alt="Viewing List Item Details" width="200" />
+  <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/aeed88b6-4bd8-4e3c-a32a-2657c290ae33" alt="Deleting a List Item" width="200" />
 </p>
 
 <p align="center">
@@ -96,20 +92,6 @@ Once the project is set up and running, you can use the application as follows:
 <p align="center">
   <strong>Deleting a List Item</strong>
 </p>
-
-3. **Viewing List Item Details:**
-   <br/>
-   <br/>
-   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/5c8f93f4-2b08-416c-9adf-5f08c89186c8" alt="Preview 1" width="200" />
-   <br/>
-   <br/>
-   
-4. **Deleting a List Item:**
-   <br/>
-   <br/>
-   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/aeed88b6-4bd8-4e3c-a32a-2657c290ae33" alt="Preview 1" width="200" />
-   <br/>
-   <br/>
    
 ## Additional Information
 
