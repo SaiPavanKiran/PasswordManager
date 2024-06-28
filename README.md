@@ -1,17 +1,18 @@
 # Password Manager Android Application
 
-## ⚠️ Main Warning
-**Important:** To use this application, you must have at least one fingerprint enrolled in your device's settings. This requirement will be optional in future releases.
-
 ## Project Overview
-The Password Manager Android Application allows users to securely store their usernames and passwords locally on their devices. The stored data is protected using the AES encryption algorithm, ensuring that user credentials remain safe and private. The application features a user-friendly interface for managing credentials and includes biometric authentication for added security.
+The Password Manager Android Application allows users to securely store their usernames and passwords locally on their devices. The stored data is protected using the AES encryption algorithm, ensuring that user credentials remain safe and private. The application features a user-friendly interface for managing credentials.
 
 ### Key Features
 - **Secure Storage:** All usernames and passwords are stored locally using AES encryption.
-- **Biometric Authentication:** Users must authenticate using their fingerprint to access the app.
-- **Password Strength Indicator:** Provides real-time feedback on the strength of the entered password.
-- **Add Credentials:** Users can add new account details (Account Name, Username, Password) using a bottom sheet form. A button is available to generate strong passwords.
+- **Add Credentials:** Users can add new account details (Account Name, Username, Password) using a bottom sheet form.
 - **View and Manage Credentials:** Users can view, edit, or delete their saved credentials from a list.
+- **Biometric Authentication:** Users must authenticate using their fingerprint to access the application.
+- **Password Strength Indicator:** Indicates the strength of the entered password below the password field.
+- **Password Generator:** A button in the add bottom sheet generates a strong password for the user.
+
+## Main Warning Note
+> **Warning:** Users must enroll at least one fingerprint in the device settings to enter this application. This requirement will be made optional in future releases.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
@@ -38,6 +39,9 @@ Follow these steps to set up the project on your local machine:
     - Ensure you have the appropriate SDK version installed.
     - Sync the project to download all necessary dependencies by clicking on `File` -> `Sync Project with Gradle Files`.
 
+4. **Set Up Encryption Keys:**
+    - If the project requires specific configuration for encryption keys, ensure they are properly set up in your local environment. Refer to any additional configuration documentation provided in the project repository.
+
 ## Build Instructions
 To build and run the project, follow these steps:
 
@@ -54,27 +58,41 @@ Once the project is set up and running, you can use the application as follows:
 
 1. **Launching the App:**
     - After building the project, launch the app on your device or emulator.
-    - Authenticate using your fingerprint to access the app.
 
 2. **Navigating the App:**
     - **Home Screen:** Displays a list of all user-saved credentials.
-    - **Add Credentials:** Tap the plus button at the bottom to open a bottom sheet where you can add a new account name, username, and password. The passwords are saved using AES encryption. A button is available to generate strong passwords.
-    - **Password Strength Indicator:** Real-time feedback on the password strength is displayed below the password field.
+    - **Add Credentials:** Tap the plus button at the bottom to open a bottom sheet where you can add a new account name, username, and password. The passwords are saved using AES encryption.
     - **View and Manage Credentials:**
         - Tap on the forward button on any list item to open a bottom sheet with the corresponding details.
         - In this bottom sheet, you will find two buttons:
             - **Edit (Blue Button):** Allows you to edit the account name, username, and password. After editing, click the update button to save changes.
             - **Delete (Red Button):** Deletes the selected credential from the list.
 
+## Videos
+1. **Prompting User Fingerprint:**
+   ![Prompting User Fingerprint](https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/ead2c435-b0de-4609-8305-246dde0c2578)
+   
+2. **Adding New User Detail:**
+   ![Adding New User Detail](https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/9dda3c74-dba8-494a-ae44-b24ff250a547)
+   
+4. **Viewing List Item Details:**
+   ![Viewing List Item Details](https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/46fba2f4-2f37-46a1-a0ea-e8e5becaa4fb)
+   
+5. **Deleting a List Item:**
+   ![Deleting a List Item](https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/ad7a9787-df7b-4d79-88ca-95ae99544222)
+
 ## Additional Information
 
 ### Troubleshooting
-- **App crashes on launch:** Ensure all dependencies are properly configured, and the device/emulator meets the required specifications.
+- **App crashes on launch:** Ensure all dependencies are properly configured, the device/emulator meets the required specifications, and verify if you gave the Android manifest permissions properly.
 - **Issues with data encryption/decryption:** Verify that the encryption keys are correctly managed and stored.
 
 ### Known Issues
 - Performance may degrade on older devices with lower processing power.
 - List items with extremely long usernames or passwords may not display correctly.
+
+### Future Releases
+- Making biometric authentication optional in the app settings.
 
 ### Contributing
 We welcome contributions to the project. To contribute, follow these steps:
@@ -101,12 +119,6 @@ We welcome contributions to the project. To contribute, follow these steps:
     - Go to the original repository on GitHub.
     - Click the `New Pull Request` button.
     - Provide a detailed description of your changes and submit the pull request.
-
-### Download APK
-For users who prefer not to build the project from source, an APK file is provided for direct download and installation. You can find the APK file in the `app/outputs/apk/debug/app-debug.apk` folder.
-
-### Future Enhancements
-- **Biometric Authentication Setting:** A future release will include a feature that allows users to enable or disable biometric authentication within the app settings.
 
 ### Contact Information
 For any questions or support, please contact:
