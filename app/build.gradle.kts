@@ -51,6 +51,8 @@ android {
 dependencies {
     implementation(libs.androidx.room)
     implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.biometric)
     annotationProcessor(libs.androidx.room.compiler)
     ksp(libs.androidx.room.compiler)
     implementation(libs.androidx.viewmodel)

@@ -65,6 +65,11 @@ fun BottomSheetContent(
                             color = MaterialTheme.colorScheme.error
                         )
                     }
+                    if(it.isPassword && it.text.isNotEmpty()){
+                        Text(
+                            text = "*${evaluatePasswordStrength(password = it.text)}"
+                        )
+                    }
                 },
                 trailingIcon = {
                     it.trailingIcon?.let{ iconData ->

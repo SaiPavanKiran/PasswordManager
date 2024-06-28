@@ -7,10 +7,18 @@ import com.rspk.internproject.crypto.CryptoManager
 import com.rspk.internproject.data.PasswordManagerEntity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 val cryptoManager = CryptoManager()
+
+private val uppercaseLetters = ('A'..'Z')
+private val lowercaseLetters = ('a'..'z')
+private val digits = ('0'..'9')
+private val symbols = "!@#$%^&*()-_=+<>?/".toList()
+
 data class IconData(
     val iconVisible: Int,
     val iconHidden: Int ,
@@ -38,32 +46,63 @@ data class TextFieldData(
     val isPassword: Boolean = false
 )
 
+fun getRandomPassword(length: Int = 12): String {
+    val allChars = uppercaseLetters + lowercaseLetters + digits + symbols
+    return List(length) { allChars.random() }.joinToString("")
+}
+
+fun evaluatePasswordStrength(password: String): String {
+
+    val hasUpperCase = password.any { it.isUpperCase() }
+    val hasLowerCase = password.any { it.isLowerCase() }
+    val hasDigit = password.any { it.isDigit() }
+    val hasSymbol = password.any { "!@#$%^&*()-_=+<>?/".contains(it) }
+    val isLongEnough = password.length >= 12
+
+    val criteriaMet = listOf(hasUpperCase, hasLowerCase, hasDigit, hasSymbol, isLongEnough).count { it }
+
+    return when {
+        criteriaMet == 5 -> "Password is strong"
+        criteriaMet >= 3 -> "Password is ok"
+        else -> "Password is too weak"
+    }
+}
+
 fun checkButtonDetails(
-    accountType:String,
-    userName:String,
-    password:String,
+    accountType: String,
+    userName: String,
+    password: String,
     context: Context,
-    bottomSheetViewModel: BottomSheetViewModel
-){
-    val coroutineScope = CoroutineScope(Dispatchers.IO)
-
-    val encryptedPassword = cryptoManager.encrypt(password)
-
-    if(accountType.isNotEmpty() && userName.isNotEmpty() && password.isNotEmpty()){
-        coroutineScope.launch {
-            if(bottomSheetViewModel.checkIfUserExists(accountType,userName) < 1){
-                bottomSheetViewModel.addUserDetails(
-                    PasswordManagerEntity(
-                        accountName = accountType,
-                        userEmail = userName,
-                        password = encryptedPassword
+    bottomSheetViewModel: BottomSheetViewModel,
+): Flow<Boolean> {
+    return flow {
+        if (accountType.isNotEmpty() && userName.isNotEmpty() && password.isNotEmpty()) {
+            val encryptedPassword = cryptoManager.encrypt(password)
+            val userExists = withContext(Dispatchers.IO) {
+                bottomSheetViewModel.checkIfUserExists(accountType, userName) > 0
+            }
+            if (!userExists) {
+                withContext(Dispatchers.IO) {
+                    bottomSheetViewModel.addUserDetails(
+                        PasswordManagerEntity(
+                            accountName = accountType,
+                            userEmail = userName,
+                            password = encryptedPassword
+                        )
                     )
-                )
-            }else{
+                }
+                withContext(Dispatchers.Main) {
+                    Toast.makeText(context, "Addition Successful", Toast.LENGTH_SHORT).show()
+                }
+                emit(false)
+            } else {
                 withContext(Dispatchers.Main) {
                     Toast.makeText(context, "User Already Exists", Toast.LENGTH_SHORT).show()
                 }
+                emit(true)
             }
+        } else {
+            emit(true)
         }
     }
 }

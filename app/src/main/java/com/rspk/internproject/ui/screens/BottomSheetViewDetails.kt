@@ -5,6 +5,8 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
@@ -70,11 +72,12 @@ fun ViewDetailsBottomSheet(
             currentLazyListIndexChange(null)
         },
         modifier = modifier
-            .height((LocalConfiguration.current.screenHeightDp/2).dp)
+            .height((LocalConfiguration.current.screenHeightDp / 2).dp)
     ) {
         BottomSheetContent(
             modifier = Modifier
-                .background(MaterialTheme.colorScheme.surfaceContainerLow),
+                .background(MaterialTheme.colorScheme.surfaceContainerLow)
+                .verticalScroll(rememberScrollState()),
             textFieldsList = textFieldsList,
             checkBlankFieldsValue = checkBlankFieldsValue,
             readOnly = readOnly,
@@ -87,7 +90,7 @@ fun ViewDetailsBottomSheet(
                 OutlinedTextFieldDefaults.colors()
             },
             buttonContent = {
-                BottomSheetButton(
+                BottomSheetButtonForViewDetails(
                     readOnly = readOnly,
                     readOnlyChanged = readOnlyChanged,
                     currentLazyListIndex = currentLazyListIndex,
@@ -102,7 +105,7 @@ fun ViewDetailsBottomSheet(
 }
 
 @Composable
-fun BottomSheetButton(
+fun BottomSheetButtonForViewDetails(
     modifier: Modifier = Modifier,
     readOnly: Boolean,
     readOnlyChanged: (Boolean) -> Unit,
