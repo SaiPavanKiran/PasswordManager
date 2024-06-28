@@ -67,22 +67,44 @@ Once the project is set up and running, you can use the application as follows:
               
 ## Videos
 
-<p align="center">
-1. **Prompting User Fingerprint:**
-   <br/>
-   <br/>
-   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/b42e9954-803c-4522-b83a-88e230a64482" alt="Preview 1" width="200" />
-   <br/>
-   <br/>
-   
-2. **Adding New User Detail:**
-   <br/>
-   <br/>
-   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/8f3fe5ad-1ced-41f5-81e0-355b69be9004" alt="Preview 1" width="200" />
-   <br/>
-   <br/>
-</P>
-   
+<div style="display: flex; justify-content: center;">
+    <div style="text-align: center; margin-right: 20px;">
+        <p><strong>Prompting User Fingerprint:</strong></p>
+        <br/>
+        <br/>
+        <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/b42e9954-803c-4522-b83a-88e230a64482" alt="Prompting User Fingerprint" width="200" />
+        <br/>
+        <br/>
+    </div>
+    <div style="text-align: center;">
+        <p><strong>Adding New User Detail:</strong></p>
+        <br/>
+        <br/>
+        <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/8f3fe5ad-1ced-41f5-81e0-355b69be9004" alt="Adding New User Detail" width="200" />
+        <br/>
+        <br/>
+    </div>
+</div>
+
+<div style="display: flex; justify-content: center;">
+    <div style="text-align: center; margin-right: 20px;">
+        <p><strong>Prompting User Fingerprint:</strong></p>
+        <br/>
+        <br/>
+        <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/b42e9954-803c-4522-b83a-88e230a64482" alt="Prompting User Fingerprint" width="200" />
+        <br/>
+        <br/>
+    </div>
+    <div style="text-align: center;">
+        <p><strong>Adding New User Detail:</strong></p>
+        <br/>
+        <br/>
+        <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/8f3fe5ad-1ced-41f5-81e0-355b69be9004" alt="Adding New User Detail" width="200" />
+        <br/>
+        <br/>
+    </div>
+</div>
+
 3. **Viewing List Item Details:**
    <br/>
    <br/>
