@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InternProject</string>
+    <string name="navigation_icon">%s Navigation Icon</string>
+    <string name="fab_content_description">Floating Action Button</string>
+    <string name="add_button_title">Add New Account</string>
+    <string name="required_field">required Field</string>
+    <string name="visibility">Visible password</string>
+    <string name="visibility_off">visibility off</string>
+    <string name="edit_button_title">Edit</string>
+    <string name="delete_button_title">Delete</string>
+    <string name="update_button_title">Update</string>
+</resources>

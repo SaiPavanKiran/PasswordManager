@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_font_size">20</dimen>
+    <dimen name="card_shape">50dp</dimen>
+    <dimen name="card_padding_vertical">15dp</dimen>
+    <dimen name="card_padding_horizontal">20dp</dimen>
+    <dimen name="sheet_padding_vertical">15dp</dimen>
+    <dimen name="sheet_padding_horizontal">30dp</dimen>
+    <dimen name="card_internal_padding">22dp</dimen>
+    <dimen name="text_padding_horizontal">10dp</dimen>
+    <dimen name="padding_medium">20dp</dimen>
+    <dimen name="image_medium">50dp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="textField_shape">10dp</dimen>
+</resources>
