@@ -101,5 +101,4 @@ We welcome contributions to the project. To contribute, follow these steps:
 ### Contact Information
 For any questions or support, please contact:
 - **Name:** Sai Pavan Kiran
-- **Email:** saipavankiran@example.com
 - **GitHub:** [SaiPavanKiran](https://github.com/SaiPavanKiran)
