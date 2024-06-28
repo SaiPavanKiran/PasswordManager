@@ -103,7 +103,10 @@ We welcome contributions to the project. To contribute, follow these steps:
     - Provide a detailed description of your changes and submit the pull request.
 
 ### Download APK
-For users who prefer not to build the project from source, an APK file is provided for direct download and installation. You can find the APK file in the `releases` section of the GitHub repository.
+For users who prefer not to build the project from source, an APK file is provided for direct download and installation. You can find the APK file in the `app/outputs/apk/debug/app-debug.apk` folder.
+
+### Future Enhancements
+- **Biometric Authentication Setting:** A future release will include a feature that allows users to enable or disable biometric authentication within the app settings.
 
 ### Contact Information
 For any questions or support, please contact:
