@@ -11,7 +11,7 @@ The Password Manager Android Application allows users to securely store their us
 - **Password Strength Indicator:** Indicates the strength of the entered password below the password field.
 - **Password Generator:** A button in the add bottom sheet generates a strong password for the user.
 
-## Main Warning Note
+## ⚠️ Main Warning Note
 > **Warning:** Users must enroll at least one fingerprint in the device settings to enter this application. This requirement will be made optional in future releases.
 
 ## Prerequisites
@@ -68,27 +68,33 @@ Once the project is set up and running, you can use the application as follows:
 ## Videos
 
 1. **Prompting User Fingerprint:**
-   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/b42e9954-803c-4522-b83a-88e230a64482" alt="Preview 1" width="100" /> 
+   <br/>
+   <br/>
+   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/b42e9954-803c-4522-b83a-88e230a64482" alt="Preview 1" width="200" />
+   <br/>
+   <br/>
    
-2. **Adding New User Detail:**
-   <video width="800" controls>
-     <source src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/9dda3c74-dba8-494a-ae44-b24ff250a547" type="video/mp4">
-     Your browser does not support the video tag.
-   </video>
+3. **Adding New User Detail:**
+   <br/>
+   <br/>
+   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/8f3fe5ad-1ced-41f5-81e0-355b69be9004" alt="Preview 1" width="200" />
+   <br/>
+   <br/>
    
-3. **Viewing List Item Details:**
-   <video width="800" controls>
-     <source src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/46fba2f4-2f37-46a1-a0ea-e8e5becaa4fb" type="video/mp4">
-     Your browser does not support the video tag.
-   </video>
+5. **Viewing List Item Details:**
+   <br/>
+   <br/>
+   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/5c8f93f4-2b08-416c-9adf-5f08c89186c8" alt="Preview 1" width="200" />
+   <br/>
+   <br/>
    
-4. **Deleting a List Item:**
-   <video width="800" controls>
-     <source src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/ad7a9787-df7b-4d79-88ca-95ae99544222" type="video/mp4">
-     Your browser does not support the video tag.
-   </video>
-
-
+7. **Deleting a List Item:**
+   <br/>
+   <br/>
+   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/aeed88b6-4bd8-4e3c-a32a-2657c290ae33" alt="Preview 1" width="200" />
+   <br/>
+   <br/>
+   
 ## Additional Information
 
 ### Troubleshooting
