@@ -1,11 +1,13 @@
 # Password Manager Android Application
 
 ## Project Overview
-The Password Manager Android Application allows users to securely store their usernames and passwords locally on their devices. The stored data is protected using the AES encryption algorithm, ensuring that user credentials remain safe and private. The application features a user-friendly interface for managing credentials.
+The Password Manager Android Application allows users to securely store their usernames and passwords locally on their devices. The stored data is protected using the AES encryption algorithm, ensuring that user credentials remain safe and private. The application features a user-friendly interface for managing credentials and includes biometric authentication for added security.
 
 ### Key Features
 - **Secure Storage:** All usernames and passwords are stored locally using AES encryption.
-- **Add Credentials:** Users can add new account details (Account Name, Username, Password) using a bottom sheet form.
+- **Biometric Authentication:** Users must authenticate using their fingerprint to access the app.
+- **Password Strength Indicator:** Provides real-time feedback on the strength of the entered password.
+- **Add Credentials:** Users can add new account details (Account Name, Username, Password) using a bottom sheet form. A button is available to generate strong passwords.
 - **View and Manage Credentials:** Users can view, edit, or delete their saved credentials from a list.
 
 ## Prerequisites
@@ -52,10 +54,12 @@ Once the project is set up and running, you can use the application as follows:
 
 1. **Launching the App:**
     - After building the project, launch the app on your device or emulator.
+    - Authenticate using your fingerprint to access the app.
 
 2. **Navigating the App:**
     - **Home Screen:** Displays a list of all user-saved credentials.
-    - **Add Credentials:** Tap the plus button at the bottom to open a bottom sheet where you can add a new account name, username, and password. The passwords are saved using AES encryption.
+    - **Add Credentials:** Tap the plus button at the bottom to open a bottom sheet where you can add a new account name, username, and password. The passwords are saved using AES encryption. A button is available to generate strong passwords.
+    - **Password Strength Indicator:** Real-time feedback on the password strength is displayed below the password field.
     - **View and Manage Credentials:**
         - Tap on the forward button on any list item to open a bottom sheet with the corresponding details.
         - In this bottom sheet, you will find two buttons:
@@ -97,6 +101,9 @@ We welcome contributions to the project. To contribute, follow these steps:
     - Go to the original repository on GitHub.
     - Click the `New Pull Request` button.
     - Provide a detailed description of your changes and submit the pull request.
+
+### Download APK
+For users who prefer not to build the project from source, an APK file is provided for direct download and installation. You can find the APK file in the `releases` section of the GitHub repository.
 
 ### Contact Information
 For any questions or support, please contact:
