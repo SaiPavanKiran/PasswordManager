@@ -68,10 +68,7 @@ Once the project is set up and running, you can use the application as follows:
 ## Videos
 
 1. **Prompting User Fingerprint:**
-   <video width="800" controls>
-     <source src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/ead2c435-b0de-4609-8305-246dde0c2578" type="video/mp4">
-     Your browser does not support the video tag.
-   </video>
+   <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/b42e9954-803c-4522-b83a-88e230a64482" alt="Preview 1" width="350" /> 
    
 2. **Adding New User Detail:**
    <video width="800" controls>
