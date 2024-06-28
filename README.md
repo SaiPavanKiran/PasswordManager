@@ -11,7 +11,7 @@ The Password Manager Android Application allows users to securely store their us
 - **Password Strength Indicator:** Indicates the strength of the entered password below the password field.
 - **Password Generator:** A button in the add bottom sheet generates a strong password for the user.
 
-## ⚠️ Main Warning Note
+## Main Warning Note ⚠️
 > **Warning:** Users must enroll at least one fingerprint in the device settings to enter this application. This requirement will be made optional in future releases.
 
 ## Prerequisites
@@ -67,6 +67,7 @@ Once the project is set up and running, you can use the application as follows:
               
 ## Videos
 
+<p align="center">
 1. **Prompting User Fingerprint:**
    <br/>
    <br/>
@@ -74,21 +75,22 @@ Once the project is set up and running, you can use the application as follows:
    <br/>
    <br/>
    
-3. **Adding New User Detail:**
+2. **Adding New User Detail:**
    <br/>
    <br/>
    <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/8f3fe5ad-1ced-41f5-81e0-355b69be9004" alt="Preview 1" width="200" />
    <br/>
    <br/>
+</P>
    
-5. **Viewing List Item Details:**
+3. **Viewing List Item Details:**
    <br/>
    <br/>
    <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/5c8f93f4-2b08-416c-9adf-5f08c89186c8" alt="Preview 1" width="200" />
    <br/>
    <br/>
    
-7. **Deleting a List Item:**
+4. **Deleting a List Item:**
    <br/>
    <br/>
    <img src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/aeed88b6-4bd8-4e3c-a32a-2657c290ae33" alt="Preview 1" width="200" />
