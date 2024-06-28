@@ -64,19 +64,33 @@ Once the project is set up and running, you can use the application as follows:
         - In this bottom sheet, you will find two buttons:
             - **Edit (Blue Button):** Allows you to edit the account name, username, and password. After editing, click the update button to save changes.
             - **Delete (Red Button):** Deletes the selected credential from the list.
-
+              
 ## Videos
+
 1. **Prompting User Fingerprint:**
-   ![Prompting User Fingerprint](https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/ead2c435-b0de-4609-8305-246dde0c2578)
+   <video width="800" controls>
+     <source src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/ead2c435-b0de-4609-8305-246dde0c2578" type="video/mp4">
+     Your browser does not support the video tag.
+   </video>
    
 2. **Adding New User Detail:**
-   ![Adding New User Detail](https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/9dda3c74-dba8-494a-ae44-b24ff250a547)
+   <video width="800" controls>
+     <source src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/9dda3c74-dba8-494a-ae44-b24ff250a547" type="video/mp4">
+     Your browser does not support the video tag.
+   </video>
    
-4. **Viewing List Item Details:**
-   ![Viewing List Item Details](https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/46fba2f4-2f37-46a1-a0ea-e8e5becaa4fb)
+3. **Viewing List Item Details:**
+   <video width="800" controls>
+     <source src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/46fba2f4-2f37-46a1-a0ea-e8e5becaa4fb" type="video/mp4">
+     Your browser does not support the video tag.
+   </video>
    
-5. **Deleting a List Item:**
-   ![Deleting a List Item](https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/ad7a9787-df7b-4d79-88ca-95ae99544222)
+4. **Deleting a List Item:**
+   <video width="800" controls>
+     <source src="https://github.com/SaiPavanKiran/PasswordManager/assets/170409295/ad7a9787-df7b-4d79-88ca-95ae99544222" type="video/mp4">
+     Your browser does not support the video tag.
+   </video>
+
 
 ## Additional Information
 
