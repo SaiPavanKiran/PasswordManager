@@ -1,5 +1,8 @@
 # Password Manager Android Application
 
+## ⚠️ Main Warning
+**Important:** To use this application, you must have at least one fingerprint enrolled in your device's settings. This requirement will be optional in future releases.
+
 ## Project Overview
 The Password Manager Android Application allows users to securely store their usernames and passwords locally on their devices. The stored data is protected using the AES encryption algorithm, ensuring that user credentials remain safe and private. The application features a user-friendly interface for managing credentials and includes biometric authentication for added security.
 
